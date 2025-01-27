@@ -1,0 +1,160 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #000;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 12px;
+    width: 300px;
+}
+
+.sidebar__navigation {
+    background-color: #121212;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+}
+
+.logo {
+    background: #121212;
+    display: flex;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+}
+
+.sidebar__navigation .logo img {
+    width: 80px;
+}
+
+.sidebar nav ul {
+    margin-top: 15px;
+    padding: 0 20px 10px 20px;
+}
+
+.sidebar ul li {
+    padding: 10px 0;
+}
+
+.sidebar nav ul li a {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+    font-family: "DM Sans", sans-serif;
+}
+
+.library {
+    background-color: #121212;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 4px 8px;
+    color: #b3b3b3;
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.library__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.library .library__button {
+    display: flex;
+    margin-right: 10px;
+    color: #b3b3b3;
+    background-color: transparent;
+    border: 0px;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: "DM Sans", sans-serif;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    padding: 20px ;
+}
+
+.library .library__button .fa {
+    font-size: 20px;
+    font-weight: 300;
+    color: #b3b3b3;
+    margin-right: 10px;
+    padding-right: 8px;
+}
+
+.library .library__content .fa-plus {
+    margin: 24px 10px;
+}
+
+.library__playlist {
+    border-radius: 8px;
+    background-color: #181818;
+    padding: 4px 8px;
+    justify-content: space-between;
+    flex-direction: column;
+    font-family: "DM Sans", sans-serif;
+}
+
+.library__playlist .playlist__content {
+    margin-top: 10px;
+}
+
+.library__playlist .playlist__content span, p {
+    padding: 15px 0px 25px 20px;
+    color: white;
+}
+
+.library__playlist .playlist__content span {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.library__playlist .create__playlist {
+    padding: 11px;
+    text-decoration: none;
+    color: #000;
+    background-color: white;
+    border-radius: 20px;
+    display: block;
+    width: fit-content;
+    margin: 0px 0px 6px 16px;
+}
+
+.library__playlist .playlist__content p {
+    font-weight: 300;
+    font-size: 13px;
+}
+
+.cookie {
+    margin-top: 25px;
+    font-family: "DM Sans", sans-serif;
+}
+
+.cookie .cookie__config p {
+    font-size: 11px;
+    font-weight: 300;
+}
+
+.cookie .cookie__button {
+    margin-right: 10px;
+    color: white;
+    background-color: #121212;
+    border: 2px solid #b3b3b3;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    padding: 8px;
+    margin: 10px 0px 10px 15px;
+}
