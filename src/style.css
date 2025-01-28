@@ -158,3 +158,57 @@ body {
     padding: 8px;
     margin: 10px 0px 10px 15px;
 }
+
+.disclaimer-premium {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background: linear-gradient(to right, #d602d6, #00bdbd);
+}
+
+.text {
+    flex-shrink: 0;
+}
+
+.text .disclaimer-premium__title {
+    font-weight: 700;
+}
+
+.text .disclaimer-premium__subtitle {
+    font-weight: 500;
+}
+
+.text .disclaimer-premium__title, .disclaimer-premium__subtitle {
+    font-size: 15px;
+    color: white;
+    font-family: "DM Sans", sans-serif;
+    padding: 8px;
+    margin-left: 30px;
+}
+
+.disclaimer-premium__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2rem;
+}
+
+.disclaimer-premium__button button {
+    color: #000000;
+    background-color: white;
+    padding: 17px 30px;
+    border: none;
+    border-radius: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+
+.disclaimer-premium__button button:hover {
+    box-shadow: 0 0 1rem #000;
+}
