@@ -1,0 +1,12 @@
+:root {
+    /* FONTE */
+    --font-dm-san: "DM Sans", sans-serif;
+
+    /* CORES */
+    --color-lighter-black: #131313;
+    --color-black: #000000;
+    --color-gray: #b3b3b3;
+    --color-gray-darker: #181818;
+    --color-gradient: linear-gradient(to right, #d602d6, #00bdbd);
+    --bg-arrow-color: rgba(0,0,07);
+}

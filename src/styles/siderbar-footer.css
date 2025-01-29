@@ -4,7 +4,8 @@
 }
 
 body {
-    background-color: #000;
+    background-color: var(--color-black);
+    font-family: var(--font-dm-san);
 }
 
 .sidebar {
@@ -17,13 +18,13 @@ body {
 }
 
 .sidebar__navigation {
-    background-color: #121212;
+    background-color: var(--color-lighter-black);
     border-radius: 8px;
     padding: 16px 0 0 16px;
 }
 
 .logo {
-    background: #121212;
+    background: var(--color-lighter-black);
     display: flex;
     border-radius: 8px;
     padding: 16px 0 0 16px;
@@ -43,21 +44,20 @@ body {
 }
 
 .sidebar nav ul li a {
-    color: #b3b3b3;
+    color: var(--color-gray);
     text-decoration: none;
     font-weight: 600;
     font-size: 15px;
-    font-family: "DM Sans", sans-serif;
 }
 
 .library {
-    background-color: #121212;
+    background-color: var(--color-lighter-black);
     border-radius: 8px;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     padding: 4px 8px;
-    color: #b3b3b3;
+    color: var(--color-gray);
     font-weight: 600;
     font-size: 15px;
     margin-top: 10px;
@@ -71,12 +71,11 @@ body {
 .library .library__button {
     display: flex;
     margin-right: 10px;
-    color: #b3b3b3;
+    color: var(--color-gray);
     background-color: transparent;
     border: 0px;
     font-size: 15px;
     font-weight: 700;
-    font-family: "DM Sans", sans-serif;
     text-align: center;
     text-decoration: none;
     text-transform: none;
@@ -86,7 +85,7 @@ body {
 .library .library__button .fa {
     font-size: 20px;
     font-weight: 300;
-    color: #b3b3b3;
+    color: var(--color-gray);
     margin-right: 10px;
     padding-right: 8px;
 }
@@ -97,11 +96,10 @@ body {
 
 .library__playlist {
     border-radius: 8px;
-    background-color: #181818;
+    background-color: var(--color-gray-darker);
     padding: 4px 8px;
     justify-content: space-between;
     flex-direction: column;
-    font-family: "DM Sans", sans-serif;
 }
 
 .library__playlist .playlist__content {
@@ -121,7 +119,7 @@ body {
 .library__playlist .create__playlist {
     padding: 11px;
     text-decoration: none;
-    color: #000;
+    color: var(--color-black);
     background-color: white;
     border-radius: 20px;
     display: block;
@@ -136,7 +134,6 @@ body {
 
 .cookie {
     margin-top: 25px;
-    font-family: "DM Sans", sans-serif;
 }
 
 .cookie .cookie__config p {
@@ -147,8 +144,8 @@ body {
 .cookie .cookie__button {
     margin-right: 10px;
     color: white;
-    background-color: #121212;
-    border: 2px solid #b3b3b3;
+    background-color: var(--color-lighter-black);
+    border: 2px solid var(--color-gray);
     border-radius: 20px;
     font-size: 15px;
     font-weight: 700;
@@ -185,7 +182,6 @@ body {
 .text .disclaimer-premium__title, .disclaimer-premium__subtitle {
     font-size: 15px;
     color: white;
-    font-family: "DM Sans", sans-serif;
     padding: 8px;
     margin-left: 30px;
 }
@@ -198,7 +194,7 @@ body {
 }
 
 .disclaimer-premium__button button {
-    color: #000000;
+    color: var(--color-black);
     background-color: white;
     padding: 17px 30px;
     border: none;
@@ -210,5 +206,5 @@ body {
 }
 
 .disclaimer-premium__button button:hover {
-    box-shadow: 0 0 1rem #000;
+    box-shadow: 0 0 1rem var(--color-black);
 }
