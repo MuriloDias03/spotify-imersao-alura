@@ -163,7 +163,7 @@ body {
     right: 0;
     display: flex;
     justify-content: space-between;
-    padding: 15px;
+    padding: 10px;
     background: linear-gradient(to right, #d602d6, #00bdbd);
 }
 
