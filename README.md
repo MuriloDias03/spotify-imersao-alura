@@ -5,9 +5,15 @@
 
 
 # 📝 Sobre o projeto
-Este projeto foi desenvolvido durante a Imersão Alura Front-End 2025. O objetivo é recriar a interface do Spotify utilizando HTML, CSS e JavaScript. A proposta é explorar as principais técnicas de front-end enquanto construímos uma página moderna e responsiva.
+Este projeto foi desenvolvido durante a Imersão Alura Front-End 2025. O objetivo é recriar a interface do Spotify utilizando HTML, CSS e JavaScript, e também o json-server para hospedar uma "API fake" para testes de busca dos artistas no input. A proposta é explorar as principais técnicas de front-end enquanto construímos uma página moderna e responsiva.
 
 O design do projeto é inspirado no Spotify, com um layout limpo e organizado. No desenvolvimento, coloquei em prática conceitos como estruturação semântica, design responsivo e manipulação básica de interatividade com JavaScript.
+
+# 🧪 Como testar o projeto
+
+A API do projeto para buscar artistas foi transferida para o Heroku! Para você ver tanto o fron-end e o funcionamento do "back-end fake" ao mesmo tempo com facilidade. 😄
+
+Tente fazer uma busca no input! Se não aparecer o artista que você digitou, eu não coloquei na API .-.
 
 <a href="https://murilodias03.github.io/spotify-imersao-alura/" target="_blank" rel="external">Clique aqui para visualizar o projeto.</a>
 

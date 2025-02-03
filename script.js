@@ -3,7 +3,7 @@ const resultArtists = document.getElementById('result-artist');
 const resultPlaylist = document.getElementById('result-playlist');
 
 function requestApi(searchTerm) {
-    const url = `http://localhost:3000/artists?name_like=${searchTerm}`;
+    const url = `https://spotify-api-alura-067940eb80c3.herokuapp.com/artists?name_like=${searchTerm}`;
     
     fetch(url)
         .then((response) => response.json())
