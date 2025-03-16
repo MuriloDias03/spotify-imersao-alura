@@ -11,9 +11,7 @@ O design do projeto é inspirado no Spotify, com um layout limpo e organizado. N
 
 # 🧪 Como testar o projeto
 
-A API do projeto para buscar artistas foi transferida para o Heroku! Para você ver tanto o front-end e o funcionamento do "back-end fake" ao mesmo tempo com facilidade. 😄
-
-Tente fazer uma busca no input! Se não aparecer o artista que você digitou, eu não coloquei na API .-.
+Infelizmente não tem como testar o teste de busca com a API, mas mesmo assim da para ver como ficou o layout!
 
 <a href="https://murilodias03.github.io/spotify-imersao-alura/" target="_blank" rel="external">Clique aqui para visualizar o projeto.</a>
 
